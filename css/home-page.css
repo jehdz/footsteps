@@ -3,6 +3,9 @@
     font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
 }
 
+
+/*Navigation bar*/
+
 .nav-container {
     position: absolute;
     top: 0px;
@@ -96,4 +99,53 @@ ul li {
 ul li:hover {
     color: orange;
 }
+/*End Navigation bar*/
+
+
+/*Map styling*/
+
+#map{
+    display: block;
+    height: 600%;
+    width: 100%;
+}
+
+
+/*footer */
+
+
+footer {
+    position: sticky;
+    text-align: center;
+    color: #0089CE;
+    background: black;
+    height: 90px;
+}
+
+.bottom-content {
+    padding-top: 25px;
+}
+
+a {
+
+    text-decoration: none;
+    color: #0089CE;
+
+}
+
+
+/*a tag in the footer tag*/
+a:hover {
+    color: orange;
+}
+
+.github-icon {
+    width: 2rem;
+    color: #0089CE;
+}
+
+
+
+/*end of footer */
+
 
