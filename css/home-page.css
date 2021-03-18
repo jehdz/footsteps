@@ -28,7 +28,7 @@ nav {
 }
 
 
-form{
+.form-search{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -43,7 +43,7 @@ form{
     padding: 5px;
 }
 
-input{
+.search-input{
     position: absolute;
     top: 0;
     left: 0;
@@ -73,16 +73,16 @@ input{
     transition: all 1s;
 }
 
-form:hover{
+.form-search:hover{
     width: 350px;
     cursor: pointer;
 }
 
-form:hover input{
+.form-search:hover input{
     display: block;
 }
 
-form:hover .fa{
+.form-searchform:hover .fa{
     background: #0089CE;
     color: white;
 }
@@ -97,10 +97,18 @@ ul li {
 
 
 ul li:hover {
-    color: orange;
+    color: white;
 }
 /*End Navigation bar*/
 
+
+/*Add Locatin button*/
+.locButton{
+  position: absolute;
+  margin-top: 128px;
+  margin-left: 85%;
+  z-index: 10;
+}
 
 /*Map styling*/
 
@@ -108,29 +116,35 @@ ul li:hover {
     display: block;
     height: 600%;
     width: 100%;
+    z-index: -1;
 }
 
 
 /*footer */
 
-
-footer {
-    position: sticky;
+.footer {
+    margin: 0 auto;
+    position: relative;
     text-align: center;
     color: #0089CE;
     background: black;
     height: 90px;
+    width:86.25rem;
+    position:fixed;
+    bottom:0;
 }
 
 .bottom-content {
-    padding-top: 25px;
+  margin-top: 5px;
+    font-size: 18px;
+  margin-bottom: 4px;
+
 }
 
-a {
 
+a {
     text-decoration: none;
     color: #0089CE;
-
 }
 
 
@@ -140,12 +154,72 @@ a:hover {
 }
 
 .github-icon {
-    width: 2rem;
+    height: 19px;
+    width: 1.8rem;
     color: #0089CE;
 }
 
+.loyola{
+  margin-top: 0px;
+  font-size: 10px;
+  color:grey;
+  font-family: sans-serif;
+}
 
+.sentence{
 
+  margin-bottom: 12px;
+  margin-left: 10px;
+  font-size: 13px;
+  display: inline-block;
+  padding:0;
+}
+
+.searchBar{
+  position: absolute;
+  margin-left: 460px;
+  margin-top: 65px;
+}
 /*end of footer */
 
+/*Pop up*/
+.bg-modal{
+  width: 100%;
+  height:100%;
+  background-color: rgba(0,0,0,0.7);
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  z-index: 1;
+  display: none;
 
+}
+
+.modal-content{
+  margin-top: 42%;
+  width:500px;
+  height:300px;
+  background-color: white;
+  border-radius: 4px;
+  z-index: 2;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+.modal-input{
+  width:50%;
+  display:block;
+  margin:7px auto;
+}
+
+.close{
+  position: absolute;
+  top:0;
+  right:14px;
+  font-size: 42px;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
