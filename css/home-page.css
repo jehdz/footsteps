@@ -129,7 +129,7 @@ ul li:hover {
     color: #0089CE;
     background: black;
     height: 90px;
-    width:86.25rem;
+    width:100%;
     position:fixed;
     bottom:0;
 }
