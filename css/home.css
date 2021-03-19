@@ -1,0 +1,14 @@
+* {
+    transition: all 0.3s ease-in-out;
+    font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+}
+
+/*Map styling*/
+
+#map{
+    position: static;
+    display: block;
+    height: 90vh;
+    width: 100%;
+    z-index: -1;
+}
