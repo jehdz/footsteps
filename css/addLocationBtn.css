@@ -63,3 +63,15 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 600px) {
+
+    .locationBtn{
+        transition: all 0.3s ease-in-out;
+        font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+        position: absolute;
+        left: 3%;
+        top: 75%;
+
+
+
+}
