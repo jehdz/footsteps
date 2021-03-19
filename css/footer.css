@@ -1,0 +1,54 @@
+/*footer */
+
+.footer {
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    color: #0089CE;
+    background: black;
+    height: 90px;
+    width:100%;
+    position:fixed;
+    bottom:0;
+}
+
+.bottom-content {
+    margin-top: 5px;
+    font-size: 18px;
+    margin-bottom: 4px;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: #0089CE;
+}
+
+
+/*a tag in the footer tag*/
+a:hover {
+    color: white;
+}
+
+.github-icon {
+    height: 19px;
+    width: 1.8rem;
+    color: #0089CE;
+}
+
+.loyola{
+    margin-top: 0px;
+    font-size: 10px;
+    color:grey;
+    font-family: sans-serif;
+}
+
+.sentence{
+
+    margin-bottom: 12px;
+    margin-left: 10px;
+    font-size: 13px;
+    display: inline-block;
+    padding:0;
+}
