@@ -53,11 +53,23 @@
                     <div class="close">+</div>
                   <h1>Add Your Location</h1>
                   <form action="">
-                    <input class="modal-input" type="text" placeholder="Enter Name"/>
-                    <input class="modal-input" type="text" placeholder="Description" />
-                    <input class="modal-input" type="text" placeholder="Category"/>
-                    <input class="modal-input" type="text" placeholder="Address" />
-                    <button type="button" class="modal-button btn btn-primary">Enter Location</button>
+                    <input id="name" name="name" class="modal-input" type="text" placeholder="Enter Name"/>
+                    <input id="description" name="description" class="modal-input" type="text" placeholder="Description" />
+                    <input id="address" name="address" class="modal-input" type="text" placeholder="Address" />
+                      <select id="category" name="category" placeholder="Category" class="modal-input" style="width: 222px;
+    height: 36px;">
+                          <option value="NA">Category</option>
+                          <option value="historical">Historical</option>
+                          <option value="shopping">Shopping</option>
+                          <option value="food">Food</option>
+                          <option value="leisure">Leisure</option>
+                          <option value="entertainment">Entertainment</option>
+                          <option value="tourism">Tourism</option>
+                          <option value="nightlife">Nightlife</option>
+                          <option value="museum">Museum</option>
+                      </select>
+                    <button id="submit" type="button" class="modal-button btn btn-primary">Enter Location</button>
+                      <!--                    <input id="sendLocation" type="submit" class="modal-button btn btn-primary" value="Enter Location" /> -->
                   </form>
                 </div>
             </div>
@@ -88,6 +100,9 @@
 
         <script src="js/popup.js"> </script>
         <script src="js/map.js"> </script>
+        <script src="js/locations.js" > </script>
+        <script src="js/sendData.js" > </script>
+
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdHlWG-6UyPbwqme3Nzx1JW2hAws7NNGE&callback=initMap"
                 type="text/javascript"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
