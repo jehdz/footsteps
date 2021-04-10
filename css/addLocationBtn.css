@@ -17,6 +17,7 @@
 
 .modal-button{
     background-color: #0089CE;
+
 }
 
 
@@ -32,6 +33,8 @@
     align-items: center;
     z-index: 1;
     display: none;
+    color: #0089CE;
+
 
 }
 
