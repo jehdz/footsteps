@@ -10,7 +10,7 @@ submit.addEventListener('click', () => {
 
 
     if (name.length == 0 || description.length == 0 || category.length == 0 || address.length == 0) {
-        alert('Please fill out form');
+        alert('Please fill out form completely');
     } else {
 
         var newEntry = {
