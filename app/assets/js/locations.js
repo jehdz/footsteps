@@ -177,3 +177,14 @@ var locationData = [
     }
 ]
 
+function locationShow(){
+    var results = '';
+    var deck = document.getElementById('locationDeck');
+    for (var i =0; i<locationData.length; i++){
+        results += "<div class=\"location-deck\">"+ "<h2 class=\"loc-name\">" + locationData[i].name + "</h2>"+ "</div";
+    }
+    deck.innerHTML = results;
+}
+
+locationShow();
+
