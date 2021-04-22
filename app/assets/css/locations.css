@@ -20,14 +20,28 @@
 }
 
 .location-deck{
-    margin-top: 0px;
-    z-index: 0;
+    text-align: center;
+    background-color:black;
 }
 
 .loc-name{
     z-index: -2;
-    position:relative;
+    position:static;
+    display:inline-block;
+    background-color: #0089CE;
+    text-align: center;
+    margin-left:10px;
+    margin-right: 10px;
+    color:aliceblue
 }
+
+.loc-category{
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+    color:aliceblue;
+}
+
 
 
 
