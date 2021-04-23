@@ -6,7 +6,7 @@
 /*Map styling*/
 
 #map{
-    position: static;
+    position: fixed;
     display: block;
     height: 90vh;
     width: 100%;

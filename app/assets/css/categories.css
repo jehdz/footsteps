@@ -106,7 +106,7 @@
     -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
     -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
     transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-    background-image:url('https://lh3.googleusercontent.com/proxy/EOWeaPUk5HQbF5-VqI2bqdQtIaN-_ZKtkNXNVjrXLmLkOBArAgVvJA3PWxNoQ18Tcg8ZRrZGDK0rumLF3ZHU01FvPD-iSJ9Idb3uu08fIyCiC1jo76BDWi-ozuz9Ol2taioNMTgvD771ziM0yJjKWp2MqA');
+    background-image:url('https://urbanmatter.com/chicago/wp-content/uploads/2018/06/34191057_10155243843226370_3915767219006472192_o.jpg');
     background-size:cover;
     background-repeat:no-repeat;
   }
@@ -149,11 +149,3 @@
     height:18em;
 }
 
-.property-card:hover .property-social-icons{
-  background-color:white;
-}
-
-.property-card:hover .property-social-icons:hover{
-  background-color:black;
-  cursor:pointer;
-}

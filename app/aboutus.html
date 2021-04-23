@@ -1,8 +1,8 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
     <head>
-        <title>Footsteps</title>
+        <title>About Us</title>
         <link rel="icon" type="image/png" href="assets/img/favicon.png">
         <meta charset="utf-8">
         <meta name="description" content="Comp 324 Project">
@@ -12,13 +12,16 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
         <!--        CSS style sheets-->
+        <link rel="stylesheet" href="assets/css/aboutus.css">
         <link rel="stylesheet" href="assets/css/home.css">
         <link rel="stylesheet" href="assets/css/navbar.css">
         <link rel="stylesheet" href="assets/css/addLocationBtn.css">
         <link rel="stylesheet" href="assets/css/footer.css">
+        
     </head>
 
     <body>
+
         <div class="nav-container">
 
             <div class="logo">  <!--   Logo     -->
@@ -43,38 +46,9 @@
                 </ul>
             </nav>
 
-<!--            &lt;!&ndash;Location Button &ndash;&gt;-->
-<!--            <button type="button" id ="locButton" class="locButton btn btn-primary">Add Location</button>-->
+            
 
-
-            <!--Pop-up Form-->
-            <div class="bg-modal">
-                <div class="modal-content">
-                    <div class="close">+</div>
-                  <h1>Add Your Location</h1>
-                  <form action="/" method="POST" >
-                    <input id="name" name="name" class="modal-input" type="text" placeholder="Enter Name"/>
-                    <input id="description" name="description" class="modal-input" type="text" placeholder="Description" />
-                    <input id="address" name="address" class="modal-input" type="text" placeholder="Address" />
-                    <select id="category" name="category" placeholder="Category" class="modal-input" style="width: 222px; height: 36px;">
-                          <option value="NA">Category</option>
-                          <option value="historical">Historical</option>
-                          <option value="shopping">Shopping</option>
-                          <option value="food">Food</option>
-                          <option value="leisure">Leisure</option>
-                          <option value="entertainment">Entertainment</option>
-                          <option value="tourism">Tourism</option>
-                          <option value="nightlife">Nightlife</option>
-                          <option value="museum">Museum</option>
-                      </select>
-                    <button id="submit" class="modal-button btn btn-primary">Enter Location</button>
-                  </form>
-                </div>
-            </div>
-
-            <!--  Map -->
-            <div id="map"></div>
-
+    
             <!--Footer-->
             <footer class="footer">
                   <h1 class="bottom-content"> <a target="_blank" href="https://github.com/jehdz/footsteps">
@@ -85,10 +59,51 @@
             </footer>
         </div>
 
-        <button type="button" id ="locButton" class="locationBtn btn btn-primary">Add Location</button>
+        <!--About Us-->
+        <div class="box"> 
+
+            <div class="student-oscar">
+                <h3 class="student-name">Oscar Yanek</h3>
+                <img class="student-pic" src="assets/img/students/oscar.png">
+                <p class="student-year">Sophomore</p>
+                <p class="student-bio">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+
+            <div class="student-henry">
+                <h3 class="student-name">Henry Martin</h3>
+                <img class="student-pic" src="assets/img/students/henry.png">
+                <p class="student-year">Sophomore</p>
+                <p class="student-bio">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+
+            <div class="student-sugar">
+                <h3 class="student-name">Sugar Dashdavaa</h3>
+                <img class="student-pic" src="assets/img/students/sugar.png">
+                <p class="student-year">Senior</p>
+                <p class="student-bio">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+
+            <div class="student-jose">
+                <h3 class="student-name">Jose Hernandez</h3>
+                <img class="student-pic" src="assets/img/students/jose.png">
+                <p class="student-year">Senior</p>
+                <p class="student-bio">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+
+            <div class="student-brian">
+                <h3 class="student-name">Brian WadDell</h3>
+                <img class="student-pic" src="assets/img/students/brian.png">
+                <p class="student-year">Sophomore</p>
+                <p class="student-bio">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
 
 
 
+        </div>
+        
+
+            
+         
 
 
         <script src="assets/js/popup.js"> </script>
