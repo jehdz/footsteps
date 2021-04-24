@@ -4,26 +4,26 @@
 }
 .student-oscar{
     position: relative;
-    width:700px;
+    width:40%;
     height:360px;
     margin:20px;
-    
+    margin-left: 15%;
 }
 
 .student-henry{
     position: relative;
-    width:700px;
+    width:40%;
     height:360px;
-    margin-left: 40%;
+    margin-left: 45%;
     
 }
 
 .student-sugar{
     position: relative;
     margin-top: 20px;
-    width:750px;
+    width:42%;
     height:360px;
-    margin-left: 20px;
+    margin-left: 15%;
     
 }
 
@@ -32,17 +32,16 @@
     position: relative;
     width:700px;
     height:360px;
-    margin-left: 40%;
+    margin-left: 45%;
     
 }
 
 .student-brian{
     position: relative;
     margin-top: 20px;
-    width:750px;
+    width:40%;
     height:360px;
-    margin-left: 20px;
-    
+    margin-left: 15%;
 }
 
 .student-name{
