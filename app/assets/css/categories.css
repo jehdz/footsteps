@@ -1,0 +1,151 @@
+.card-title{
+    text-align: center;
+    color:#0089CE;
+}
+
+
+.category-card{
+  height:100vh;
+  width:100%;
+  position: static;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card-name{
+    color:#0089CE;
+}
+.card-des{
+    color:#e1e1e3;
+}
+
+.property-card {
+  height:18em;
+  width:14em;
+  margin:10px;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  display:inline-block;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+  -ms-flex-direction:column;
+  flex-direction:column;
+  position:relative;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius:16px;
+  overflow:hidden;
+  -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+}
+
+.property-image-1{
+  height:6em;
+  width:14em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('https://chicagology.com/wp-content/themes/revolution-20/goldenage/masonictemplesciam.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.property-image-2{
+    height:6em;
+    width:14em;
+    padding:1em 2em;
+    position:Absolute;
+    top:0px;
+    -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background-image:url('https://images2.minutemediacdn.com/image/upload/c_fill,g_auto,h_1248,w_2220/v1555449015/shape/mentalfloss/istock_000035287506_small.jpg?itok=MczNwF73');
+    background-size:cover;
+    background-repeat:no-repeat;
+  }
+
+  .property-image-3{
+    height:6em;
+    width:14em;
+    padding:1em 2em;
+    position:Absolute;
+    top:0px;
+    -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background-image:url('https://pix10.agoda.net/hotelImages/4884379/0/a7be61b6eac2ceb335442e622917d67b.jpg?s=1024x768');
+    background-size:cover;
+    background-repeat:no-repeat;
+  }
+
+  .property-image-4{
+    height:6em;
+    width:14em;
+    padding:1em 2em;
+    position:Absolute;
+    top:0px;
+    -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background-image:url('https://media-cdn.tripadvisor.com/media/photo-s/14/b8/2f/4a/winter-garden.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+  }
+
+  .property-image-5{
+    height:6em;
+    width:14em;
+    padding:1em 2em;
+    position:Absolute;
+    top:0px;
+    -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background-image:url('https://urbanmatter.com/chicago/wp-content/uploads/2018/06/34191057_10155243843226370_3915767219006472192_o.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+  }
+
+.property-description {
+  background-color: black;
+  height:12em;
+  width:14em;
+  position:absolute;
+  bottom:0em;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  padding: 0.5em 1em;
+  text-align:center;
+}
+
+.property-card:hover .property-description{
+  height:0em;
+  padding:0px 1em;
+}
+
+.property-card:hover .property-image-1{
+  height:18em;
+}
+
+.property-card:hover .property-image-2{
+    height:18em;
+  }
+
+.property-card:hover .property-image-3{
+    height:18em;
+}
+
+.property-card:hover .property-image-4{
+    height:18em;
+}
+
+.property-card:hover .property-image-5{
+    height:18em;
+}
+

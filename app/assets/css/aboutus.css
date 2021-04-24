@@ -1,0 +1,73 @@
+.box{
+    padding-bottom: 0;
+    margin-bottom: 110px;
+}
+.student-oscar{
+    position: relative;
+    width:700px;
+    height:360px;
+    margin:20px;
+    
+}
+
+.student-henry{
+    position: relative;
+    width:700px;
+    height:360px;
+    margin-left: 40%;
+    
+}
+
+.student-sugar{
+    position: relative;
+    margin-top: 20px;
+    width:750px;
+    height:360px;
+    margin-left: 20px;
+    
+}
+
+.student-jose{
+    margin-top: 20px;
+    position: relative;
+    width:700px;
+    height:360px;
+    margin-left: 40%;
+    
+}
+
+.student-brian{
+    position: relative;
+    margin-top: 20px;
+    width:750px;
+    height:360px;
+    margin-left: 20px;
+    
+}
+
+.student-name{
+    position:absolute;
+    margin: 5px;
+    display: inline-block;
+    font-size:80px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.student-pic{
+    position:absolute;
+    margin-left: 66%;
+    width: 260px;
+    height:260px;
+    padding:0;
+}
+.student-year{
+    position: absolute;
+    font-size: 19px;
+    margin-left: 10px;
+    margin-top: 109px;
+}
+
+.student-bio{
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 5px;
+}
