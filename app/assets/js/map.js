@@ -34,12 +34,13 @@ function initMap() {
         map.panTo(new google.maps.LatLng(nextLat, nextLong));
     });
 
-    var marker, i;
 
-    for(i=0; i< locations.length; i++) {
-        marker = new google.maps.Marker({
-            position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-            map: map
+    for(var i=0; i< locationData.length; i++) {
+        var currentPop = locationData.pop();
+        var marker = new google.maps.Marker({
+            position: new google.maps.LatLng(currentPop.latitude, currentPop.longitude),
+            map: map,
+            title: currentPop.name
         });
 
         google.maps.event.addListener(marker, 'click', (function(marker, i) {return function() {
