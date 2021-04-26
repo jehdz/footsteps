@@ -79,7 +79,7 @@ var locationData = [
         "description": "Club that offers lots of watersports such as sailling, crew, ect. There is a club room and bar area where you can relax.. Learn to sail for the summer passes are 350 per person. ",
         "category": "Leisure",
         "address": "11 N Lake Shore Dr, Chicago, IL 60601",
-        "latitude": "41.8840",
+        "latitude": 41.8840,
         "longitude": 87.6122,
         "source": "https://www.google.com/maps/uv?pb=!1s0x880e2b5854994aad:0x4d980eec292a642a!3m1!7e115!4shttps://lh5.googleusercontent.com/p/AF1QipMhLbpnkiHTN-wxiIJNzrLqpJzhvfbxXyyLjLup%3Dw213-h160-k-no!5scolumbia+yacht+club+latitude+and+longitude+-+Google+Search!15zQ2dJZ0FRPT0&imagekey=!1e10!2sAF1QipMhLbpnkiHTN-wxiIJNzrLqpJzhvfbxXyyLjLup&hl=en&sa=X&ved=2ahUKEwippILs17XvAhWMPM0KHahICSgQoiowFXoECCcQAw",
         "author": "Brian Waddell"
@@ -89,7 +89,7 @@ var locationData = [
         "description": "Historic Chicago landmark and staple of the northside. Home field for the Cubs, one of Chicago's two baseball teams. The stadium has been around since 1914 and still maintains much of it's original interior and exterior.",
         "category": "Historical",
         "address": "1060 W Addison St, Chicago, IL 60613",
-        "latitude": "41.94866180583689",
+        "latitude": 41.94866180583689,
         "longitude": -87.6552415069834,
         "photo": {
             "valueType": "IMAGE"
@@ -102,7 +102,7 @@ var locationData = [
         "description": "In the basement of a shopping mall and movie theater there is a fun alcove for some adrenaline pumping fun. A great idea for a date night, just hanging out with your friends, or letting off some steam. Throw giant axes at wooden bullseyes and watch them stick!",
         "category": "Leisure",
         "address": "2828 N Clark St Atrium Level, Chicago, IL 60657",
-        "latitude": "41.93562689082965",
+        "latitude": 41.93562689082965,
         "longitude": -87.6462879556674,
         "photo": {
             "valueType": "IMAGE"
@@ -115,7 +115,7 @@ var locationData = [
         "description": "For history buffs and lifelong Chicagoans visit the Chicago History Museum. Devoted entirely to different eras in Chicago's history learn about events like the Chicago Fire or Daniel Burnham's Chicago Plan. With first person accouts and memorabelia this is the ultimate stop to learn more about the city.",
         "category": "Historical",
         "address": "1601 N Clark St, Chicago, IL 60614",
-        "latitude": "41.91220801510961",
+        "latitude": 41.91220801510961,
         "longitude": -87.6317570638953,
         "photo": {
             "valueType": "IMAGE"
@@ -128,7 +128,7 @@ var locationData = [
         "description": "Located on the historic Devon ave. Hema's kitchen is a personal favorite when it comes to quality traditional indian food. Run by Hema herself this location is the original location of Hema's kitchen.",
         "category": "Food",
         "address": "2439 W Devon Ave, Chicago, IL 60659",
-        "latitude": "41.99764354047893",
+        "latitude": 41.99764354047893,
         "longitude": -87.6915373106808,
         "photo": {
             "valueType": "IMAGE"
@@ -141,7 +141,7 @@ var locationData = [
         "description": "The Chicago River has been dyed green for St. Patrick's Day! Head downtown to check it out before it turns back. (tag. free)",
         "category": "Event",
         "address": "Chicago Riverwalk, Chicago, IL 60601",
-        "latitude": "41.88889971855798",
+        "latitude": 41.88889971855798,
         "longitude": -87.6211718855627,
         "photo": {
             "valueType": "IMAGE"
@@ -154,7 +154,7 @@ var locationData = [
         "description": "Loyola University has been located on the Rogers park lakefront for over 150 years! formerly known as St. Ignatious College, Loyola has a beautiful campus that is perfect for reading a book and watching the lake or sitting in the quad and having a picnic. ",
         "category": "Historical",
         "address": "1032 W Sheridan Rd, Chicago, IL 60660",
-        "latitude": "41.998888104365",
+        "latitude": 41.998888104365,
         "longitude": -87.6582155865389,
         "photo": {
             "valueType": "IMAGE"
@@ -167,7 +167,7 @@ var locationData = [
         "description": "A great view of the skyline and an even better sunbathing and swimming spot for those who want to enjoy the summer weather and lake without the need for a beach. The ledge is a part of the lakeshore path which is adjacent to the lake. In the summer on nice days it is not uncommon to see hundreds of people set up on the ledge. (tag.free)",
         "category": "Leisure",
         "address": "Lakefront Trail, Chicago, IL 60610",
-        "latitude": "41.90774852651779",
+        "latitude": 41.90774852651779,
         "longitude": -87.624819416252,
         "photo": {
             "valueType": "IMAGE"
