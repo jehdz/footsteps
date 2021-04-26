@@ -177,14 +177,58 @@ var locationData = [
     }
 ]
 
-function locationShow(){
-    var results = '';
-    var deck = document.getElementById('locationDeck');
-    for (var i =0; i<locationData.length; i++){
-        results += "<div class=\"location-deck\">"+ "<h2 class=\"loc-name\">" + locationData[i].name + "</h2>"+ "<h3 class=\"loc-category\">" + locationData[i].category + "</h3>"+"</div";
-    }
-    deck.innerHTML = results;
+// function locationShow(){
+//     var results = '';
+//     var deck = document.getElementById('locationDeck');
+//     for (var i =0; i<locationData.length; i++){
+//         results += "<div class=\"location-deck\">"+ "<h2 class=\"loc-name\">" + locationData[i].name + "</h2>"+ "<h3 class=\"loc-category\">" + locationData[i].category + "</h3>"+"</div";
+//     }
+//     deck.innerHTML = results;
+// }
+
+// locationShow();
+//
+// //-----------------------------------------
+//
+// function locationShow(){
+//     var results = '';
+//     var deck = document.getElementById('locationDeck');
+//     for (var i =0; i<locationData.length; i++){
+//         results += "<div class=\"location-deck\">"+ "<h2 class=\"loc-name\">" + locationData[i].name + "</h2>"+ "<h3 class=\"loc-category\">" + locationData[i].category + "</h3>"+"</div";
+//     }
+//     deck.innerHTML = results;
+// }
+
+
+
+document.getElementById("category-card").innerHTML = ` 
+     ${locationsTest.map(locationTemplate).join("")} `;  //This displays the card template on the modal
+
+
+
+
+function locationTemplate(location) {
+    return `
+            <div class="property-card">
+              <a href="#">
+                <div class="property-image" style="background-image:url(${location.img});"> </div>
+              </a>
+              <div class="property-description">
+                <h4 class="card-name"> ${location.name} </h4>
+                <p class="card-des">${location.description}</p>
+              </div>
+            </div>`;
 }
 
-locationShow();
+
+
+
+
+
+
+
+
+
+
+
 

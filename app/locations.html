@@ -17,7 +17,6 @@
         <link rel="stylesheet" href="assets/css/navbar.css">
         <link rel="stylesheet" href="assets/css/addLocationBtn.css">
         <link rel="stylesheet" href="assets/css/footer.css">
-        
     </head>
 
     <body>
@@ -46,9 +45,6 @@
                 </ul>
             </nav>
 
-
-
-    
             <!--Footer-->
             <footer class="footer">
                   <h1 class="bottom-content"> <a target="_blank" href="https://github.com/jehdz/footsteps">
@@ -59,16 +55,20 @@
             </footer>
         </div>
 
-        <!--Locatin list-->
+        <!--Location list-->
 
-         <h2 class="deck-name">Locations</h2>
-        <div id="locationDeck"></div>
+         <h1 id="card-title" class="card-title">Locations</h1>
+<!--        <div id="locationDeck"></div>-->
 
+        <div id="category-card" class="category-card">
+        </div>
 
+        <script src="assets/js/card.js" > </script>
         <script src="assets/js/popup.js"> </script>
         <script src="assets/js/map.js"> </script>
         <script src="assets/js/locations.js" > </script>
         <script src="assets/js/submit.js" > </script>
+
 
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdHlWG-6UyPbwqme3Nzx1JW2hAws7NNGE&callback=initMap"
                 type="text/javascript"></script>

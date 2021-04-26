@@ -1,47 +1,127 @@
-.nav-container {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 125px;
-    background: black;
-    clear: both;
-    z-index: 1;
-    
-}
+/*.nav-container {*/
+/*    position: fixed;*/
+/*    top: 0px;*/
+/*    left: 0px;*/
+/*    width: 100%;*/
+/*    height: 125px;*/
+/*    background: black;*/
+/*    clear: both;*/
+/*    z-index: 1;*/
+/*    */
+/*}*/
 
-.deck-name{ 
-    margin-top: 0px;
+/*.deck-name{ */
+/*    margin-top: 0px;*/
+/*    color:#0089CE;*/
+/*    text-align: center;*/
+/*    padding: 0;*/
+/*    */
+
+/*}*/
+
+/*.location-deck{*/
+/*    text-align: center;*/
+/*    background-color:black;*/
+/*}*/
+
+/*.loc-name{*/
+/*    z-index: -2;*/
+/*    position:static;*/
+/*    display:inline-block;*/
+/*    background-color: #0089CE;*/
+/*    text-align: center;*/
+/*    margin-left:10px;*/
+/*    margin-right: 10px;*/
+/*    color:aliceblue*/
+/*}*/
+
+/*.loc-category{*/
+/*    display: inline-block;*/
+/*    position: relative;*/
+/*    margin-top: 20px;*/
+/*    color:aliceblue;*/
+/*}*/
+.card-title{
+    text-align: center;
     color:#0089CE;
-    text-align: center;
-    padding: 0;
-    
-
 }
 
-.location-deck{
+
+.category-card{
+    height:100vh;
+    width:100%;
+    position: static;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    background-color:black;
+    margin-bottom: 110px;
 }
 
-.loc-name{
-    z-index: -2;
-    position:static;
+.card-name{
+    color:#0089CE;
+}
+.card-des{
+    color:#e1e1e3;
+    /*font-size: 12px;*/
+}
+
+.property-card {
+    height:18em;
+    width:14em;
+    margin:10px;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
     display:inline-block;
-    background-color: #0089CE;
-    text-align: center;
-    margin-left:10px;
-    margin-right: 10px;
-    color:aliceblue
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    position:relative;
+    -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    border-radius:16px;
+    overflow:hidden;
+    -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+    box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
 }
 
-.loc-category{
-    display: inline-block;
-    position: relative;
-    margin-top: 20px;
-    color:aliceblue;
+.property-image{
+    height:6em;
+    width:14em;
+    padding:1em 2em;
+    position:Absolute;
+    top:0px;
+    -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background-image:url('https://chicagology.com/wp-content/themes/revolution-20/goldenage/masonictemplesciam.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
 }
 
+.property-description {
+    background-color: black;
+    height:12em;
+    width:14em;
+    position:absolute;
+    bottom:0em;
+    -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    padding: 0.5em 1em;
+    text-align:center;
+}
+
+.property-card:hover .property-description{
+    height:0em;
+    padding:0px 1em;
+}
+
+.property-card:hover .property-image{
+    height:18em;
+}
 
 
 
