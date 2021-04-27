@@ -190,10 +190,10 @@ function locationTemplate(location) {
     return `
             <div class="property-card">
               <a href="#">
-                <div class="property-image" style="background-image:url(${location.img});"> </div>
+                <div id="imgRedirect" class="property-image" style="background-image:url(${location.img});"> </div>
               </a>
               <div class="property-description">
-                <h4 class="card-name"> ${location.name} </h4>
+                <h4 id="card-name" class="card-name"> ${location.name} </h4>
                 <p class="card-des">${location.description}</p>
               </div>
             </div>`;

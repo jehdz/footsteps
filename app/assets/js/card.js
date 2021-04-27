@@ -162,9 +162,13 @@ var locationsTest = [
 /////// /////// /////// /////// /////// ///////
 
 
+//pass a variable and check if they are the same
+
 function cardTemplate(location) {
 
-    if ( location.latitude === 41.8737 && location.longitude === -87.62455) {
+    var title = document.getElementById("card-name").value;
+
+    if ( title === location.name) {
         return `
     <div class="location">
         <h2 class="location-name">${location.name} <span class="category">(${location.category})</span></h2>
@@ -182,6 +186,29 @@ function cardTemplate(location) {
 
 
 }
+//
+// function cardTemplate(location) {
+//
+//
+//
+//     if ( location.latitude === 41.8737 && location.longitude === -87.62455) {
+//         return `
+//     <div class="location">
+//         <h2 class="location-name">${location.name} <span class="category">(${location.category})</span></h2>
+//         <img class="location-image" src="${location.img}" >
+//         <br> <br>  <br>
+//         <p class="location-description"> ${location.description} </p> <br>
+//         <p>
+//         <strong>Address:</strong> ${location.address} <br>
+//         <strong>Latitude:</strong> ${location.latitude}
+//         <strong>Longitude:</strong> ${location.longitude}
+//         </p> <br>
+//         <p> <a href="${location.source}" target="_blank"> <strong>Learn More </strong> </a> </p> <br>
+//      </div>`;
+//     }
+//
+//
+// }
 
 
 /////// /////// /////// /////// /////// //////
@@ -192,7 +219,7 @@ function cardTemplate(location) {
 var modal = document.getElementById("card");
 
 // Get the button that opens the modal
-var markerBtn = document.getElementById("marker");
+var markerBtn = document.getElementById("imgRedirect");
 
 // Get the <span> element that closes the modal
 var close = document.getElementById("closeCard");
