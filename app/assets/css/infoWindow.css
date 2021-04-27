@@ -1,0 +1,21 @@
+.content{
+    text-align: center;
+
+}
+
+.info-img{
+    height: 200px;
+    width: auto;
+    margin: 0 auto;
+    border-radius: 25px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.info-link:hover{
+    transition: .5s;
+    color: lightsteelblue;
+}
+
+.firstHeading{
+    color:#0089CE;
+}
