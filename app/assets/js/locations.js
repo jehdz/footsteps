@@ -181,7 +181,7 @@ var locationData = [
 
 
 document.getElementById("category-card").innerHTML = ` 
-     ${locationsTest.map(locationTemplate).join("")} `;  //This displays the card template on the modal
+     ${locationData.map(locationTemplate).join("")} `;  //This displays the card template on the modal
 
 
 
@@ -198,11 +198,6 @@ function locationTemplate(location) {
               </div>
             </div>`;
 }
-
-
-
-
-
 
 
 
