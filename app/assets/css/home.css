@@ -22,3 +22,38 @@
     }
 }
 
+/*Coming soon announcement on account page*/
+.announcement {
+    font-size: 100px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.counter{
+    transition: all 0.3s ease-in-out;
+    font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+    position: absolute;
+    left: 3%;
+    top: 70%;
+
+    /*margin-top: 128px;*/
+    /*margin-left: 85%;*/
+    z-index: 10;
+    background-color: #0089CE;
+    width: 150px;
+    height: 50px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+
+    .counter{
+        top: 65%;
+        width: 100px;
+        font-size: small;
+    }
+}

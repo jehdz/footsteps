@@ -42,7 +42,7 @@
                     <li class="nav-items"><a href="index.html">Home</a></li>
                     <li class="nav-items"><a href="locations.html">All Locations</a></li>
                     <li class="nav-items"><a href="categories.html">Categories</a></li>
-                    <li class="nav-items">Account</li>
+                    <li class="nav-items"><a href="account.html">Account</a></li>
                 </ul>
             </nav>
 
@@ -94,6 +94,9 @@
 
         <button type="button" id ="locButton" class="locationBtn btn btn-primary">Add Location</button>
 
+
+        <button id="counter" class="counter"> Counter </button>
+
 <!--        <button id="marker" class="markerTest markerBtn"> Marker simulation  </button>-->
 <!--        &lt;!&ndash; The Modal &ndash;&gt;-->
 <!--        <div id="card" class="card">-->
@@ -112,6 +115,11 @@
         <script src="assets/js/locations.js" > </script>
         <script src="assets/js/submit.js" > </script>
         <script src="assets/js/card.js" > </script>
+
+        <script>
+            var locationCounter = locationData.length + 1;
+            document.getElementById("counter").innerHTML = locationCounter + " Locations";
+        </script>
 
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdHlWG-6UyPbwqme3Nzx1JW2hAws7NNGE&callback=initMap"
                 type="text/javascript"></script>
