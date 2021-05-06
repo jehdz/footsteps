@@ -1,4 +1,5 @@
 .box{
+    display: block;
     padding-bottom: 0;
     margin-bottom: 110px;
 }
@@ -30,7 +31,7 @@
 .student-jose{
     margin-top: 20px;
     position: relative;
-    width:700px;
+    width:42%;
     height:360px;
     margin-left: 15%;
     
@@ -54,8 +55,8 @@
 .student-pic{
     position:absolute;
     margin-left: 66%;
-    width: 260px;
-    height:260px;
+    width: 15em;
+    height:15em;
     padding:0;
 }
 .student-year{
@@ -69,4 +70,13 @@
     position: absolute;
     margin-top: 230px;
     margin-left: 5px;
+}
+
+.contact-links {
+ color: #0089CE;
+}
+
+
+.contact-links:hover {
+    color: lightgrey;
 }

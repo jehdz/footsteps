@@ -21,14 +21,13 @@ function initMap() {
         var description = locationData[i].description;
         var source = locationData[i].source;
         var image = locationData[i].img;
-        var address = locationData[i].address
+        var address = locationData[i].address;
 
         const contentString =
-            `<div id="content" class="content" style="width: 350px; height:auto;">
-                <div id="siteNotice">
-                </div>
+            `<div id="content" class="content" style="width: 250px; height:300px;">
+
                 <h1 id="firstHeading" class="firstHeading"> ${name} </h1>
-                <div id="bodyContent">
+                <div id="bodyContent" style="width: 100%;">
                 <p> <img class="info-img" src=${image}> </p>
                 <p> ${description} </p>
                 <br> 
