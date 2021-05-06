@@ -35,7 +35,7 @@ var locationData = [
     {
         "name": "Celebrity Restaurant With Great Food and Drinks",
         "description": "This corner restaurant \"Longman & Eagle\", bar and inn has a knack for gathering Logan Square’s hippest crowds—and that clientele now includes some of the indie world’s most prized musicians, including Whitney, Iron & Wine, and Glen Hansard. Indie band Local Natives were the most recent rockers to dine here with a pre-show showdown of falafel Scotch eggs, barbecue salmon, and whiskey highballs.",
-        "category": "Restaurants",
+        "category": "Food",
         "address": "2657 N Kedzie Ave\nChicago, IL 60647",
         "latitude": 41.92972,
         "longitude": -87.70716,
@@ -46,13 +46,43 @@ var locationData = [
     {
         "name": "Celebrity Spot - Hub 51",
         "description": "This dark & intimate late-night lounge features banquette seating & bottle service with DJ tunes. A great place to dine in for a good night. Celebrities spotted: Ashton Kutcher, Mila Kunis, Jessica Simpson, Lindsay Lohan, Josh Duhamel and Fergie.",
-        "category": "Restaurants",
+        "category": "Food",
         "address": "51 W Hubbard St, Chicago, IL 60654",
         "latitude": 41.89011,
         "longitude": -87.63182,
         "img": "https://media.timeout.com/images/102512723/image.jpg",
         "source": "https://www.hub51chicago.com/",
         "author": "Henry Martin"
+    },
+    {
+        "name": "Chicago Adler Planetarium",
+        "description": "The Adler Planetarium is a public museum dedicated to the study of astronomy and astrophysics. It was founded in 1930 by Chicago business leader Max Adler. It is located on the northeast tip of Northerly Island ",
+        "category": "Historical ",
+        "address": "1300 S LakeShore Drive  Chicago IL 60605",
+        "latitude": 41.8689613342285,
+        "longitude": -87.6173248291015,
+        "img": "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/32/a5/46.jpg",
+        "author": "Brian Waddell"
+    },
+    {
+        "name": "Chicago Chicken and Waffles\"",
+        "description": "Chicago's is a great resturant that offers a range of breakfast options. Try the Chicken and waffels an odd but delicious combination",
+        "category": "Food",
+        "address": "3947 S King Drive, Chicago IL 60653",
+        "latitude": 41.822392,
+        "longitude": -87.616302,
+        "img": "https://media1.fdncms.com/clevescene/imager/u/original/33599570/chicago_chix_and_waffles.jpg",
+        "author": "Brian Waddell "
+    },
+    {
+        "name": "Chicago Cultural Center",
+        "description": " A great place to visit. This is a landmark center in chicago being the first cultural house in the nation. Explore this urban palace for free and look over the many different and cool exhibits featuring work by chicago artist and others. ",
+        "category": "Events",
+        "address": "78 E Washington Street Chicago IL 60602",
+        "latitude": 41.88435,
+        "longitude": -87.6218948364257,
+        "img": "https://upload.wikimedia.org/wikipedia/commons/1/16/Chicago_Cultural_Center_and_Chicago_Public_Library%2C_Chicago_June_30%2C_2012-42.jpg",
+        "author": "Brian Waddell "
     },
     {
         "name": "Chicago History Museum",
@@ -64,6 +94,26 @@ var locationData = [
         "img": "https://www.themagnificentmile.com/assets/Tourism-Operators/images/Chicago-History-Museum.jpg\n\n",
         "source": "https://lh5.googleusercontent.com/p/AF1QipMjEy9jWgr-c1heaYxrJq6JMWLGrlQkO1eVxE-J=w431-h240-k-no",
         "author": "Oscar Yanek"
+    },
+    {
+        "name": "Chicago Poetry Foundation",
+        "description": "Visit and immerse yourself in a world of poetry. The Poetry Foundation offers a vigorous commitment of sharing poetry. You can explore the three story building's book catalog and get to know new as well as old poets get ready to snap your fingers! (tag.free) ",
+        "category": "Historical ",
+        "address": "61 W Superior Street, chicago Il 60654",
+        "latitude": 41.89555,
+        "longitude": "-87.630380",
+        "img": "https://interactive.wttw.com/sites/default/files/styles/full/public/images/2020/04/14/SamGrantPhoto_PoetryFoundation_Shot1_090_1.jpg?itok=2wd2xyBt\"",
+        "author": "Brian Waddell"
+    },
+    {
+        "name": "Chicago Whirlyball",
+        "description": "Great place to visit in chicago. It is an adult arcade with lots of indoor entertainment perfect hangout during chicago winters. You can play a cool new game called Whirlyball ",
+        "category": "Leisure ",
+        "address": "1825 W Webster ave, Chicago, IL 60624",
+        "latitude": 41.921377,
+        "longitude": -87.6738099,
+        "img": "https://assets3.thrillist.com/v1/image/1375346/414x310/crop;jpeg_quality=65.jpg",
+        "author": "Brian Waddell "
     },
     {
         "name": "Columbia Yacht Club",
@@ -90,7 +140,7 @@ var locationData = [
     {
         "name": "Dyed River",
         "description": "The Chicago River has been dyed green for St. Patrick's Day! Head downtown to check it out before it turns back. (tag. free)",
-        "category": "Event",
+        "category": "Events",
         "address": "Chicago Riverwalk, Chicago, IL 60601",
         "latitude": "41.88889971855798",
         "longitude": -87.6211718855627,
@@ -101,7 +151,7 @@ var locationData = [
     {
         "name": "Ferris Bueller & Friends Take Ferrari Down Lakeshore",
         "description": "During John Hughes’ classic 1986 film “Ferris Bueller’s Day Off”, a high school wise-guy decides to take the day off with friends Cameron & Sloane. Take a trip to North Avenue Beach and check out this iconic shot taken on Lakeshore drive heading south towards downtown.  ",
-        "category": "Movie",
+        "category": "Films",
         "address": "North Avenue Beach, Chicago, IL, 60614",
         "latitude": 41.917264,
         "longitude": 87.628672,
@@ -112,13 +162,43 @@ var locationData = [
     {
         "name": "Frank Lloyd Wright - Walther Gale House ",
         "description": "The Walter H. Gale House, located in the Chicago suburb of Oak Park, Illinois, was designed by Frank Lloyd Wright and constructed in 1893. The house was commissioned by Walter H. Gale of a prominent Oak Park family and is the first home Wright designed after leaving the firm of Adler & Sullivan",
-        "category": "History",
+        "category": "Historical ",
         "address": "1031 Chicago Ave, Oak Park, IL 60302",
         "latitude": 41.89454,
         "longitude": -87.80512,
         "img": "https://ap.rdcpix.com/3618450714/c3b379ebc2c0a8a3cd1a62632742c475l-w0xd-w1020_h770_q80.jpgg",
         "source": "https://en.wikipedia.org/wiki/Walter_Gale_House",
         "author": "Henry Martin"
+    },
+    {
+        "name": "Fredrick C. Robie House\"",
+        "description": "Designed by Frank Lloyd Wright the Robie House is a National Historic Landmark. Vistors may explore the greatest example of prairie style architecture.",
+        "category": "Historical ",
+        "address": "5757 S Woodlawn Ave, Chicago, Il 60637",
+        "latitude": 41.7897893,
+        "longitude": -87.595994,
+        "img": "https://media.timeout.com/images/105683549/image.jpg",
+        "author": "Brian Waddell "
+    },
+    {
+        "name": "Garfield Park Conservatory\"",
+        "description": "Garfield Park Convervatory is one of the largest botanical gardens in the world. Vistors may explore for free different types of plant life and the enviorments in which they thrive. (tag.free)",
+        "category": "Leisure ",
+        "address": "380 N Central Park ave, Chicago IL 60624",
+        "latitude": 41.886269,
+        "longitude": -87.717079,
+        "img": "https://media-cdn.tripadvisor.com/media/photo-s/1b/c4/d1/f4/the-palm-house-at-65.jpg",
+        "author": "Brian Waddell "
+    },
+    {
+        "name": "Harold Washington Library",
+        "description": "Located in the heart of the city Harold Washington Library is Chicago's main library. There are many free events that go on here from readings to after school programs and writer's workshops.",
+        "category": "Historical ",
+        "address": "400 S State Street, Chicago, IL 60624",
+        "latitude": 41.8763089,
+        "longitude": -87.6281983,
+        "img": "https://www.enjoyillinois.com/assets/Tourism-Operators/images/itims/_resampled/CroppedFocusedImageWzgwMCw0NTAsInkiLDUzXQ/25243_harold-washington-library-center.jpg",
+        "author": "Brian Waddell "
     },
     {
         "name": "Hema's Kitchen",
@@ -134,7 +214,7 @@ var locationData = [
     {
         "name": "Home Alone House",
         "description": "The house of Kevin McCallister (Macaulay Culkin) is to the north of Chicago, at 671 Lincoln Avenue, Winnetka. Another classic film conceived by John Hughes, who thought of the idea when leaving for vacation and wondering what would happen if his boy was left home alone. One of the original notes for the film included the interesting observations that kids aren’t afraid of stuff adults are like robbers. Please note: this is a residential home, so be respectful",
-        "category": "Movie",
+        "category": "Films",
         "address": "671 Lincoln Ave\nWinnetka, IL 60093",
         "latitude": 42.10978,
         "longitude": -87.73353,
@@ -145,7 +225,7 @@ var locationData = [
     {
         "name": "Hudsucker Proxy Filmed Here",
         "description": "Check out this classic film location. the film set is heavily inspired by Art Deco architecture, which includes this towering building. If you want to get up close, you will notice how tall it really is!",
-        "category": "Movie",
+        "category": "Films",
         "address": "Merchandise Mart, Chicago, IL 60654",
         "latitude": 41.88917,
         "longitude": -87.63401,
@@ -176,6 +256,16 @@ var locationData = [
         "author": "Oscar Yanek"
     },
     {
+        "name": "Millennium Park",
+        "description": "Chicago's front yard is open all year from fun events to simple walks or runs around the park. The park also has locations such as water fountain where you cool off on a hot summer day. Check out the park's Cloud gate scuplture. (tag.free)",
+        "category": "Leisure ",
+        "address": "201 E Randolph Street, Chicago IL 60602",
+        "latitude": 41.882702,
+        "longitude": -87.619392,
+        "img": "https://media.timeout.com/images/105650200/image.jpg",
+        "author": "Brian Waddell "
+    },
+    {
         "name": "Raising Cane's Chicken Fingers",
         "description": "Fast food chain which servesChicken fingers and texas toast. ",
         "category": "Food",
@@ -187,15 +277,35 @@ var locationData = [
         "author": "Oscar Yanek"
     },
     {
+        "name": "Ralph Lauren Chicago Store",
+        "description": "Explore the 5 story flagship building filled with everything Ralph Lauren from hats and shoes to chairs and tables. You can also travel next door and vist the Rl restuarnat grab a bite to eat.",
+        "category": "Shopping ",
+        "address": "750 N Michigan ave, Chicago IL 60624",
+        "latitude": 41.8964343,
+        "longitude": -87.6243926,
+        "img": "https://www.ralphlauren.com/on/demandware.static/-/Sites-RalphLauren_US-Library/default/dw90639855/img/201806/06262018-flagships-lp/20180626_flagship_lp_na_c04b_banner_na.jpg",
+        "author": "Brian Waddell "
+    },
+    {
         "name": "Second City Comedy house",
         "description": "Check out this historic comedy house which boats alums like Chris Farley, Stephen Colbert, and Steve Carell. This comedy house is famous for their classic with sketch and improv comedy, and makes for a great night out.",
-        "category": "History",
+        "category": "Historical ",
         "address": "230 W North Ave, Chicago, IL 60614",
         "latitude": 41.91127,
         "longitude": -87.6354,
         "img": "https://www.secondcity.com/wp-content/uploads/2019/06/SC_GS_Website_Exterior_001.png",
         "source": "https://en.wikipedia.org/wiki/The_Second_City",
         "author": "Henry Martin"
+    },
+    {
+        "name": "South Shore Cultural Center",
+        "description": "You get a little bit of everything visiting the Cultural center. It has a library or reading room where you can explore its history being one of the oldest buildings in the city. You can host events in its many ballrooms, or even play a round of golf and go swimming... behind the center is lake michigan.\"",
+        "category": "Leisure ",
+        "address": "7059 South Shore Drive, Chicago, IL 60649",
+        "latitude": 41.7626838684082,
+        "longitude": -87.559211730957,
+        "img": "https://chicago.cbslocal.com/wp-content/uploads/sites/15116062/2014/07/south-shore-cultural-center.jpg?w=1024&h=576&crop=1",
+        "author": "Brian Waddell "
     },
     {
         "name": "St. Valentine’s Massacre Took Place Here",
@@ -222,13 +332,23 @@ var locationData = [
     {
         "name": "The Gallagher House",
         "description": "Check out this famous house on the Southside of Chicago. Featured in the TV show Shameless. ",
-        "category": "TV",
+        "category": "Films",
         "address": "2119 S Homan Ave, Chicago, IL 60623",
         "latitude": 41.85306,
         "longitude": -87.71009,
         "img": "http://lokagraph.com/wp-content/uploads/2018/06/house-shameless-gallagher.jpg",
         "source": "https://en.wikipedia.org/wiki/Shameless_(American_TV_series)",
         "author": "Henry Martin"
+    },
+    {
+        "name": "The Signature Room\"",
+        "description": "Enjoy Chicago fine dinning on the 95th floor overlooking the entire city. The signature room is a great place to eat and socialize. Go even higher on the 96th floor for those who are able to vist the bar lounge.\"",
+        "category": "Food",
+        "address": "875 N Michigan ave, Chicago, IL ",
+        "latitude": 41.899239,
+        "longitude": -87.624039,
+        "img": "https://b.zmtcdn.com/data/pictures/5/16738115/6e9d7f8a46636197f4b133fa427343a0_featured_v2.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+        "author": "Brian Waddell "
     },
     {
         "name": "Watertower Place",
