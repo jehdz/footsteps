@@ -13,12 +13,7 @@
     z-index: 1;
 }
 
-@media screen and (max-width: 600px) {
 
-    .footer{
-        margin-bottom: 20px;
-    }
-}
 
 
 .bottom-content {
