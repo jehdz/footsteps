@@ -4,7 +4,7 @@
 }
 
 
-.location-card{
+.category-card{
     height:100vh;
     width:100%;
     position: static;
@@ -78,7 +78,3 @@
 .property-card:hover .property-image{
     height:18em;
 }
-
-
-
-

@@ -1,4 +1,51 @@
-var locationData = [
+var categoryData = [
+    {
+        "name": "Historical",
+        "description": "Chicago's finest historical places to visit.",
+        "img": "https://chicagology.com/wp-content/themes/revolution-20/goldenage/masonictemplesciam.jpg"
+    },
+    {
+        "name": "Food",
+        "description": "Look for delicious meals and world's top restaurants in Chicagoland.",
+        "img": 'https://images2.minutemediacdn.com/image/upload/c_fill,g_auto,h_1248,w_2220/v1555449015/shape/mentalfloss/istock_000035287506_small.jpg?itok=MczNwF73'
+
+    },
+    {
+        "name": "Shopping",
+        "description": "Visit one of the biggest shopping streets in the world.",
+        "img": 'https://pix10.agoda.net/hotelImages/4884379/0/a7be61b6eac2ceb335442e622917d67b.jpg?s=1024x768'
+    },
+    {
+        "name": "Leisure",
+        "description": "Enjoy your time by visiting iconic libraries and spend time with your family and friends.",
+        "img":'https://www.thesoftwarereport.com/wp-content/uploads/2017/09/simpli.fi_.jpg'
+    },
+    {
+        "name": "Events",
+        "description": "World's biggest festivals and events are happening in Chicago.",
+        "img":'https://urbanmatter.com/chicago/wp-content/uploads/2018/06/34191057_10155243843226370_3915767219006472192_o.jpg'
+    },
+    {
+        "name": "Films",
+        "description": "Check out the location of your favorite movies & tv shows filmed in the city!",
+        "img":'https://www.legalzoom.com/sites/lz.com/files/inline-images/articles/film.jpg'
+
+
+    }
+
+
+    // {
+    //     "category": "",
+    //     "description": ""
+    // }
+    // {
+    //     "category": "",
+    //     "description": ""
+    // },
+];
+
+
+var test = [
     {
         "name": "Al Capone Got his Haircut Here",
         "description": "In this hotel’s basement throughout the 1920’s, a windowless, marble-walled barber shop provided a haircut — as well as a secret meeting space — for Capone and his inner circle. The Greek-columned room is still in use, billed as a “palatial event space.”",
@@ -266,48 +313,60 @@ var locationData = [
 
 ]
 
-// function locationShow(){
-//     var results = '';
-//     var deck = document.getElementById('locationDeck');
-//     for (var i =0; i<locationData.length; i++){
-//         results += "<div class=\"location-deck\">"+ "<h2 class=\"loc-name\">" + locationData[i].name + "</h2>"+ "<h3 class=\"loc-category\">" + locationData[i].category + "</h3>"+"</div";
-//     }
-//     deck.innerHTML = results;
-// }
 
-// locationShow();
-//
-// //-----------------------------------------
-//
-// function locationShow(){
-//     var results = '';
-//     var deck = document.getElementById('locationDeck');
-//     for (var i =0; i<locationData.length; i++){
-//         results += "<div class=\"location-deck\">"+ "<h2 class=\"loc-name\">" + locationData[i].name + "</h2>"+ "<h3 class=\"loc-category\">" + locationData[i].category + "</h3>"+"</div";
-//     }
-//     deck.innerHTML = results;
-// }
-
-
-
-document.getElementById("location-card").innerHTML = ` 
-     ${locationData.map(locationTemplate).join("")} `;  //This displays the card template on the modal
+document.getElementById("category-card-div").innerHTML = ` 
+     ${categoryData.map(categoriesCardTemplate).join("")} `;  //This displays the card template on the modal
 
 
 
 
-function locationTemplate(location) {
+function categoriesCardTemplate(category) {
     return `
             <div class="property-card">
               <a href="#">
-                <div class="property-image" style="background-image:url(${location.img});"> </div>
+                <div id="property-image-${category.name}" class="property-image" style="background-image:url(${category.img});"> </div>
               </a>
               <div class="property-description">
-                <h4 class="card-name"> ${location.name} </h4>
-                <p class="card-des">${location.description}</p>
+                <h4 class="card-name"> ${category.name} </h4>
+                <p class="card-des">${category.description}</p>
               </div>
             </div>`;
+
 }
+
+
+function getInfo(id){
+
+    for (let i = 0; i < test.length; i++){
+        let target = test[i].category;
+        let name = test[i].name;
+
+        if(id === target){
+            return `
+                <div class="location">
+                    <h2 class="location-name">${name} </h2>
+                 </div>`;
+        }
+
+    }
+}
+
+
+
+
+for (let i = 0; i < categoryData.length; i++) {
+
+    let id = categoryData[i].name;
+    var picture = document.getElementById(`property-image-${id}`);
+
+    picture.addEventListener('click', ()  => {
+
+        getInfo(id);
+        console.log("It works " + i + " " + id);
+    });
+}
+
+
 
 
 
